@@ -1,0 +1,157 @@
+
+html
+{
+    scroll-behavior: smooth;
+}.tab1
+{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+header{
+    margin: 0;
+    padding: 0;
+    display:flex; 
+    border-radius:120px;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+}
+
+.tab2
+{
+text-decoration: none;
+}
+
+.tab2 a:hover{
+color: rgb(163, 235, 179);
+background-color: aqua;
+}
+.tab2 a
+{
+    color:red;
+}
+/* body
+{
+    background-color: darksalmon;
+} */
+main #services #serve1
+{
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+}
+.ser
+{
+    width: 308px;
+    height: 430px;
+    border:5px solid black;
+     border-radius: 12px;
+    margin:0px 24px;
+    color: aliceblue;
+}
+.seh
+{
+    font-size: 2vw;
+    text-decoration: underline;
+    color:blanchedalmond;
+
+}
+.b{
+    margin:25vw;
+    border:1px solid wheat;
+    background-color: rgba(245, 222, 179, 0.329);
+}
+.enter1
+{
+    font-size: 4vw;
+    color:antiquewhite;
+
+}
+.enter2 a {color:lemonchiffon;
+    border: 2px solid rgb(199, 20, 20);
+    background-color: rgba(245, 245, 245, 0.432);
+    border-radius: 12px;
+    padding:1px;
+    margin:15px 0px;
+    font-size: 2vw;
+}
+.contact img
+{
+    margin:0px 50vw;
+filter: invert(100%);
+z-index: 0;
+}
+.contact{
+    background-color:white;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#enter{
+    background-image: url("rail.jpg.jpg");
+    border: 2px solid red;
+    height:90vw;
+    width: 100vw;
+}
+    #services
+{
+    border: 7px solid black;
+    border-radius: 12px;
+    padding :0px 15px 15px 15px;
+}
+main #services #serve2
+{
+    justify-content:center;
+    display :flex;
+    flex-wrap: wrap;
+}
+body
+{
+    background-image: url("17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signin
+{
+    margin:auto;
+    margin: 0px;
+    padding: 2rem;
+    /* width: 25%; */
+    text-align: center;
+   
+    border: 2px solid black;
+    margin: auto;
+}
+.signin h1 , .sign h1
+{
+    font-size: 5vw;
+
+}
+.email{
+    color: aliceblue;
+}
+#feedback
+{
+    margin:auto;
+    margin: 0px;
+    padding: 2rem;
+    /* width: 50%; */
+    text-align: center;
+    
+    border: 2px solid black;
+    margin: auto;
+}
+footer{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.feed{
+    text-align: center;
+    align-items: center;
+
+}

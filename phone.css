@@ -1,0 +1,15 @@
+header{
+    flex-wrap: wrap;
+    border-radius: 2px;
+}
+.signin h1 ,.sign h1
+{
+font-size: 45px;
+/* width: 100%; */
+}
+.signin
+{
+    width: 100%;
+    font-size: 5px;
+    text-align: left;
+}
